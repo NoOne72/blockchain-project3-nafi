@@ -1,0 +1,27 @@
+{
+  "name": "smartcontract_todolist",
+  "version": "1.0.0",
+  "description": "Project 2: Smart Contract - Todo List On-Chain",
+  "type": "module",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "compile": "hardhat compile",
+    "test": "hardhat test",
+    "node": "hardhat node",
+    "deploy:local": "hardhat run scripts/deploy.js --network localhost"
+  },
+  "keywords": [
+    "solidity",
+    "hardhat",
+    "smart-contract",
+    "blockchain"
+  ],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@nomicfoundation/hardhat-toolbox": "^5.0.0",
+    "hardhat": "^2.28.0"
+  }
+}
